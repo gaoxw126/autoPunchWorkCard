@@ -13,7 +13,7 @@ psw = ""
 def do_check_in():
     #browser = webdriver.Chrome(executable_path="C:\\Program Files (x86)\\Google\\Chrome\\Application\\chromedriver.exe")
     browser = webdriver.Chrome()
-    browser.get("http://jd.com")
+    browser.get("http://***.com")
 
     account = browser.find_element_by_id("username")
     passwd = browser.find_element_by_id("password")
